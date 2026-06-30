@@ -1,0 +1,29 @@
+# 构建产物 - 不纳入版本控制
+release/
+pet-build*/
+output/
+installer-app/
+
+# 依赖目录
+node_modules/
+.npm-cache/
+.cargo/
+.rustup/
+.toolchains/
+.cargo-home/
+
+# 编译产物
+src-tauri/target/
+src-tauri/gen/
+*.exe
+*.msi
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# Agent 工作台
+.agents/
+.codex/
+.setup/
+.tmp-rustc/
